@@ -1,0 +1,78 @@
+/*
+  Theme name: General
+  Author: nemesis1917
+  Version: 1.0
+*/
+.fixed{
+    position: sticky;
+    z-index: 3;
+
+}
+ul.hr li {
+    display: inline;
+    padding: 3px;
+}
+li{
+    margin: 0 50px;
+}
+.float-left {float: left}
+
+.float-right {float: right}
+a:visited{
+    color:  #0000FF;
+}
+a{
+    text-decoration: none;
+}
+.header_ul{
+    margin-left: 60%;
+}
+#h1{
+    margin-left: 10%;
+    float:left;
+    margin-top: -10px;
+    z-index: 20;
+}
+
+/*---------------------------------------*/
+.page-banner {
+    background-color: #000;
+    padding: 80px 0 40px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: -5.5%;
+}
+.page-banner__bg-image {
+    opacity: .33;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.c-white {color: #FFF}
+#banner{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#main_ul{
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 47% 5% 47%;
+}
+.passage_title{
+    text-align: center;
+    margin-top: 3.5%
+}
+.c-green{color: forestgreen}
+.t-center{text-align: center}
+.text_decor{
+    line-height: 25px;
+    font-size: 1.2rem;
+}
